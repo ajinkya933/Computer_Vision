@@ -1,7 +1,7 @@
 # Computer_Vision_Interview
 These are the interview questions for Computer Vision and Machine Learning
 
-# Birth of RCNN
+### Birth of RCNN
 
 Objects of interest might have different spatial locations within the image and different aspect ratios.  
 A naive approach to solve this problem would be to take different regions of interest from the image, and use a CNN to classify the presence of the object within that region.Hence, you would have to select a huge number of regions and this could computationally blow up. Therefore, algorithms like R-CNN, YOLO etc have been developed to find these occurrences and find them fast.
