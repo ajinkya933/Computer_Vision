@@ -29,3 +29,6 @@ we feed the input image to the CNN to generate a convolutional feature map. From
 Both of the above algorithms(R-CNN & Fast R-CNN) uses selective search to find out the region proposals. Selective search is a slow and time-consuming process affecting the performance of the network. Therefore, Shaoqing Ren et al. came up with an object detection algorithm that eliminates the selective search algorithm and lets the network learn the region proposals.
 
 Similar to Fast R-CNN, the image is provided as an input to a convolutional network which provides a convolutional feature map. Instead of using selective search algorithm on the feature map to identify the region proposals, a separate network is used to predict the region proposals.
+
+![1 psnvmjcyqirkhdpt3cfnxa](https://user-images.githubusercontent.com/17012391/50273520-eb25b800-0460-11e9-88e2-530d990f515c.png)
+
