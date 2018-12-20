@@ -14,3 +14,4 @@ These 2000 candidate region proposals are warped into a square and fed into a co
 ### Use of SVM
 
 
+https://youtu.be/Y6RRHw9uN9o
