@@ -10,3 +10,7 @@ To bypass the problem of selecting a huge number of regions, Ross Girshick et al
 These 2000 candidate region proposals are warped into a square and fed into a convolutional neural network  The CNN acts as a feature extractor. The extracted features are fed into an SVM to classify the presence of the object within that candidate region proposal.
 
 <img width="684" alt="screen shot 2018-12-20 at 1 06 47 pm" src="https://user-images.githubusercontent.com/17012391/50270735-92522180-0458-11e9-96c3-12819c0b547f.png">
+
+### Use of SVM
+
+
