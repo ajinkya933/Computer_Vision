@@ -32,3 +32,16 @@ Similar to Fast R-CNN, the image is provided as an input to a convolutional netw
 
 ![1 psnvmjcyqirkhdpt3cfnxa](https://user-images.githubusercontent.com/17012391/50273520-eb25b800-0460-11e9-88e2-530d990f515c.png)
 
+### What is Relu, why is it used
+
+
+### Steps in working of OCR
+
+
+### What is a activation function, why is it used ?
+
+
+### What is Softmax
+
+
+
