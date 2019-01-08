@@ -34,6 +34,8 @@ Similar to Fast R-CNN, the image is provided as an input to a convolutional netw
 
 ### What is Relu, why is it used
 
+### What is leaky relu
+
 
 ### Steps in working of OCR
 
