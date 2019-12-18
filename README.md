@@ -1,5 +1,5 @@
 # Computer_Vision
-These are the interview concepts for Computer Vision and Machine Learning
+These are the concepts for Computer Vision and Machine Learning
 
 ### Birth of RCNN
 
