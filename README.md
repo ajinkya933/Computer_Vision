@@ -60,7 +60,18 @@ We see that the size of the feature map is smaller than the input, because the c
 Contrary to the convolution operation, pooling has no parameters. It slides a window over its input, and simply takes the max value in the window. Similar to a convolution, we specify the window size and stride.
 
 <img width="500" alt="featuremap2" src="https://miro.medium.com/max/1172/1*ReZNSf_Yr7Q1nqegGirsMQ@2x.png">
+
 ### What is Relu, why is it used
+The ReLU (Rectified Linear Unit) is the most used activation function in the world right now
+Range: [ 0 to infinity)
+
+<img width="500" alt="featuremap2" src="https://miro.medium.com/max/726/1*XxxiA0jJvPrHEJHD4z893g.png">
+
+### Why is relu used?
+Relu is also called as a rectifier, The purpose of applying the rectifier function is to increase the non-linearity in our images
+The reason we want to do that is that images are naturally non-linear.When you look at any image, you'll find it contains a lot of non-linear features (e.g. the transition between pixels, the borders, the colors, etc.).
+ 
+ <img width="500" alt="relu" src="https://sds-platform-private.s3-us-east-2.amazonaws.com/uploads/71_blog_image_1.png">
 
 ### What is leaky relu
 
