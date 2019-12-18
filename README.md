@@ -15,7 +15,7 @@ These 2000 candidate region proposals are warped into a square and fed into a co
 
 SVM is a algorithm which best seperates two classes
 
-<img width="1312" alt="screen shot 2018-12-20 at 1 25 09 pm" src="https://user-images.githubusercontent.com/17012391/50271457-d0e8db80-045a-11e9-83fb-d1324626f6f2.png">
+<img width="684" alt="screen shot 2018-12-20 at 1 25 09 pm" src="https://user-images.githubusercontent.com/17012391/50271457-d0e8db80-045a-11e9-83fb-d1324626f6f2.png">
 
 ### Fast RCNN
 
