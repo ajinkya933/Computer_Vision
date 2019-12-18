@@ -93,10 +93,16 @@ The range of the Leaky ReLU is (-infinity to infinity).
 
 
 ### What is a activation function, why is it used ?
+It’s just a  function where you pass in data to get an output. It is also known as Transfer Function.
+It is used to determine the output of neural network like yes or no. It maps the resulting values in between 0 to 1 or -1 to 1 etc. (depending upon the function).
+The Activation Functions can be basically divided into 2 types-
+
+Linear Activation Function
+
+Non-linear Activation Functions
 
 
 ### What is Softmax
-
 
 ### What is Regularization
 
