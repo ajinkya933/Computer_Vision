@@ -56,6 +56,10 @@ We see that the size of the feature map is smaller than the input, because the c
 
 <img width="500" alt="featuremap2" src="https://miro.medium.com/max/1063/1*W2D564Gkad9lj3_6t9I2PA@2x.gif">
 
+### Pooling
+Contrary to the convolution operation, pooling has no parameters. It slides a window over its input, and simply takes the max value in the window. Similar to a convolution, we specify the window size and stride.
+
+<img width="500" alt="featuremap2" src="https://miro.medium.com/max/1172/1*ReZNSf_Yr7Q1nqegGirsMQ@2x.png">
 ### What is Relu, why is it used
 
 ### What is leaky relu
