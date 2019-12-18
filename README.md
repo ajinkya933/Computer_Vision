@@ -25,7 +25,7 @@ Feature map:
 When there is a convolution operation between input data and a kernel the output of this operation is called a feature map:
 
 ![feature-map1](https://miro.medium.com/max/1026/1*cTEp-IvCCUYPTT0QpE3Gjg@2x.png)
-<img width="684" alt="featuremap1" src="https://miro.medium.com/max/1026/1*cTEp-IvCCUYPTT0QpE3Gjg@2x.png">
+<img width="300" alt="featuremap1" src="https://miro.medium.com/max/1026/1*cTEp-IvCCUYPTT0QpE3Gjg@2x.png">
 ![feature-map2](https://miro.medium.com/max/900/1*VVvdh-BUKFh2pwDD0kPeRA@2x.gif)
 
 
