@@ -41,6 +41,14 @@ Similar to Fast R-CNN, the image is provided as an input to a convolutional netw
 
 ![1 psnvmjcyqirkhdpt3cfnxa](https://user-images.githubusercontent.com/17012391/50273520-eb25b800-0460-11e9-88e2-530d990f515c.png)
 
+ have summarized below the steps followed by a Faster R-CNN algorithm to detect objects in an image:
+
+Take an input image and pass it to the ConvNet which returns feature maps for the image
+Apply Region Proposal Network (RPN) on these feature maps and get object proposals
+Apply ROI pooling layer to bring down all the proposals to the same size
+Finally, pass these proposals to a fully connected layer in order to classify any predict the bounding boxes for the image
+
+
 ### What is Relu, why is it used
 
 ### What is leaky relu
