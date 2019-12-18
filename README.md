@@ -19,7 +19,15 @@ SVM is a algorithm which best seperates two classes
 
 ### Fast RCNN
 
-we feed the input image to the CNN to generate a convolutional feature map. From the convolutional feature map, we identify the region of proposals(selective search algorithm is used on the feature map to identify the region proposals).  From the RoI feature vector, we use a softmax layer to predict the class of the proposed region and also the values for the bounding box. The reason “Fast R-CNN” is faster than R-CNN is because you don’t have to feed 2000 region proposals to the convolutional neural network every time. Instead, the convolution operation is done only once per image and a feature map is generated from it.
+We feed the input image to the CNN to generate a convolutional feature map. 
+
+Feature map:
+When there is a convolution operation between input data and a kernel the output of this operation is called a feature map:
+
+
+
+
+From the convolutional feature map, we identify the region of proposals(selective search algorithm is used on the feature map to identify the region proposals).  From the RoI feature vector, we use a softmax layer to predict the class of the proposed region and also the values for the bounding box. The reason “Fast R-CNN” is faster than R-CNN is because you don’t have to feed 2000 region proposals to the convolutional neural network every time. Instead, the convolution operation is done only once per image and a feature map is generated from it.
 
 ![fast-rcnn](https://user-images.githubusercontent.com/17012391/50273499-e19c5000-0460-11e9-9496-1cee1b76188f.png)
 
