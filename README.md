@@ -46,4 +46,7 @@ Similar to Fast R-CNN, the image is provided as an input to a convolutional netw
 ### What is Softmax
 
 
+### What is Regularization
+
+### overfitting
 
