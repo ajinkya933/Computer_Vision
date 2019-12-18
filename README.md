@@ -72,9 +72,22 @@ Relu is also called as a rectifier, The purpose of applying the rectifier functi
 The reason we want to do that is that images are naturally non-linear.When you look at any image, you'll find it contains a lot of non-linear features (e.g. the transition between pixels, the borders, the colors, etc.).
  
  <img width="500" alt="relu" src="https://sds-platform-private.s3-us-east-2.amazonaws.com/uploads/71_blog_image_1.png">
+ 
+The rectifier serves to break up the linearity even further. The input image
+This black and white image is the original input image.
+
+<img width="500" alt="relu" src="https://sds-platform-private.s3-us-east-2.amazonaws.com/uploads/71_blog_image_2.png">
+
+Rectification
+What the rectifier function does to an image like this is remove all the black elements from it, keeping only those carrying a positive value (the grey and white colors).
+
+<img width="500" alt="relu" src="https://sds-platform-private.s3-us-east-2.amazonaws.com/uploads/71_blog_image_4.png">
 
 ### What is leaky relu
+The issue with relu is that all the negative values become zero immediately which decreases the ability of the model to fit or train from the data properly. That means any negative input given to the ReLU activation function turns the value into zero immediately in the graph.
 
+<img width="500" alt="relu" src="https://miro.medium.com/max/704/1*A_Bzn0CjUgOXtPCJKnKLqA.jpeg">
+The range of the Leaky ReLU is (-infinity to infinity).
 
 ### Steps in working of OCR
 
@@ -90,3 +103,4 @@ The reason we want to do that is that images are naturally non-linear.When you l
 ### overfitting
 
 References: https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2
+https://www.superdatascience.com/blogs/convolutional-neural-networks-cnn-step-1b-relu-layer/
