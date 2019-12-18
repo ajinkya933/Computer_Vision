@@ -48,7 +48,13 @@ Apply Region Proposal Network (RPN) on these feature maps and get object proposa
 Apply ROI pooling layer to bring down all the proposals to the same size
 Finally, pass these proposals to a fully connected layer in order to classify any predict the bounding boxes for the image
 
+###  Stride and Padding
+Stride specifies how much we move the convolution filter at each step. By default the value is 1, as you can see in the figure below.
+<img width="500" alt="featuremap2" src="https://miro.medium.com/max/790/1*L4T6IXRalWoseBncjRr4wQ@2x.gif">
 
+We see that the size of the feature map is smaller than the input, because the convolution filter needs to be contained in the input. If we want to maintain the same dimensionality, we can use padding to surround the input with zeros. Check the animation below.
+
+<img width="500" alt="featuremap2" src="https://miro.medium.com/max/1063/1*W2D564Gkad9lj3_6t9I2PA@2x.gif">
 ### What is Relu, why is it used
 
 ### What is leaky relu
