@@ -39,7 +39,7 @@ Both of the above algorithms(R-CNN & Fast R-CNN) uses selective search to find o
 
 Similar to Fast R-CNN, the image is provided as an input to a convolutional network which provides a convolutional feature map. Instead of using selective search algorithm on the feature map to identify the region proposals, a separate network is used to predict the region proposals.
 
-![1 psnvmjcyqirkhdpt3cfnxa](https://user-images.githubusercontent.com/17012391/50273520-eb25b800-0460-11e9-88e2-530d990f515c.png)
+<img width="500" alt="fasterrcnn" src="https://user-images.githubusercontent.com/17012391/50273520-eb25b800-0460-11e9-88e2-530d990f515c.png">
 
  have summarized below the steps followed by a Faster R-CNN algorithm to detect objects in an image:
 
