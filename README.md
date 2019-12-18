@@ -55,6 +55,7 @@ Stride specifies how much we move the convolution filter at each step. By defaul
 We see that the size of the feature map is smaller than the input, because the convolution filter needs to be contained in the input. If we want to maintain the same dimensionality, we can use padding to surround the input with zeros. Check the animation below.
 
 <img width="500" alt="featuremap2" src="https://miro.medium.com/max/1063/1*W2D564Gkad9lj3_6t9I2PA@2x.gif">
+
 ### What is Relu, why is it used
 
 ### What is leaky relu
