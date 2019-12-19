@@ -36,7 +36,7 @@ When there is a convolution operation between input data and a kernel the output
 
 From the convolutional feature map, we identify the region of proposals(selective search algorithm is used on the feature map to identify the region proposals).  From the RoI feature vector, we use a softmax layer to predict the class of the proposed region and also the values for the bounding box. The reason “Fast R-CNN” is faster than R-CNN is because you don’t have to feed 2000 region proposals to the convolutional neural network every time. Instead, the convolution operation is done only once per image and a feature map is generated from it.
 
-<img width="700" alt="featuremap2" src="https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2018/10/Fast-rcnn.png">
+<img width="500" alt="featuremap2" src="https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2018/10/Fast-rcnn.png">
 
 ### Faster R-CNN
 
@@ -108,6 +108,7 @@ Non-linear Activation Functions
 
 
 ### What is Softmax
+Softmax classifiers give you probabilities for each class
 
 ### What is Regularization
 
