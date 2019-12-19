@@ -1,5 +1,10 @@
+
 # Computer_Vision
 These are the concepts for Computer Vision and Machine Learning
+
+# Fundamental structure of NN
+
+<img width="500" alt="NN" src="https://miro.medium.com/max/1401/1*uulvWMFJMidBfbH9tMVNTw@2x.png">
 
 ### Birth of RCNN
 
@@ -9,13 +14,13 @@ R-CNN
 To bypass the problem of selecting a huge number of regions, Ross Girshick et al. proposed a method where we use selective search to extract just 2000 regions from the image and he called them region proposals. Therefore, now, instead of trying to classify a huge number of regions, you can just work with 2000 regions. These 2000 region proposals are generated using the selective search algorithm
 These 2000 candidate region proposals are warped into a square and fed into a convolutional neural network  The CNN acts as a feature extractor. The extracted features are fed into an SVM to classify the presence of the object within that candidate region proposal.
 
-<img width="684" alt="screen shot 2018-12-20 at 1 06 47 pm" src="https://user-images.githubusercontent.com/17012391/50270735-92522180-0458-11e9-96c3-12819c0b547f.png">
+<img width="500" alt="screen shot 2018-12-20 at 1 06 47 pm" src="https://user-images.githubusercontent.com/17012391/50270735-92522180-0458-11e9-96c3-12819c0b547f.png">
 
 ### Use of SVM
 
 SVM is a algorithm which best seperates two classes
 
-<img width="684" alt="screen shot 2018-12-20 at 1 25 09 pm" src="https://user-images.githubusercontent.com/17012391/50271457-d0e8db80-045a-11e9-83fb-d1324626f6f2.png">
+<img width="500" alt="screen shot 2018-12-20 at 1 25 09 pm" src="https://user-images.githubusercontent.com/17012391/50271457-d0e8db80-045a-11e9-83fb-d1324626f6f2.png">
 
 ### Fast RCNN
 
