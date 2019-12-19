@@ -106,6 +106,16 @@ Non-linear Activation Functions
 
 ### What is Regularization
 
+For any machine learning problem, essentially, you can break your data points into two components — pattern + stochastic noise. For instance, if you were to model the price of an apartment, you know that the price depends on the area of the apartment, no. of bedrooms, etc. So those factors contribute to the pattern — more bedrooms would typically lead to higher prices. However, all apartments with the same area and no. of bedrooms do not have the exact same price. The variation in price is the noise.
+
+Now the goal of machine learning is to model the pattern and ignore the noise. Anytime an algorithm is trying to fit the noise >> in addition to the pattern, it is overfitting.
+
+### Two most important regularization techniques in machine learning are: Dropout and Batch Normalization
+
+### Dropout
+We are disabling neurons on purpose and the network actually performs better. The reason is that dropout prevents the network to be too dependent on a small number of neurons, and forces every neuron to be able to operate independently. 
+<img width="500" alt="dropout" src="https://miro.medium.com/max/914/1*7LrJUUXIO8ewrbuUIbUkXQ@2x.png">
+
 ### overfitting
 
 References: https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2
