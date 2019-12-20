@@ -2,7 +2,7 @@
 # Computer_Vision
 These are the concepts for Computer Vision and Machine Learning
 
-# Fundamental structure of NN
+# Fundamental structure of CNN
 
 <img width="500" alt="NN" src="https://miro.medium.com/max/1401/1*uulvWMFJMidBfbH9tMVNTw@2x.png">
 
