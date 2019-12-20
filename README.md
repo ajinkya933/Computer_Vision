@@ -110,6 +110,9 @@ Non-linear Activation Functions
 ### What is Softmax
 Softmax classifiers give you probabilities for each class
 
+### Backpropagation
+https://www.youtube.com/watch?v=0e0z28wAWfg
+
 ### What is Regularization
 
 For any machine learning problem, essentially, you can break your data points into two components — pattern + stochastic noise. For instance, if you were to model the price of an apartment, you know that the price depends on the area of the apartment, no. of bedrooms, etc. So those factors contribute to the pattern — more bedrooms would typically lead to higher prices. However, all apartments with the same area and no. of bedrooms do not have the exact same price. The variation in price is the noise.
