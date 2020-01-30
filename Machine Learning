@@ -1,3 +1,7 @@
+Good references:
+https://developers.google.com/machine-learning/crash-course/descending-into-ml/training-and-loss
+
+
 How to correct loss in ML model
 ___
 
@@ -7,6 +11,7 @@ ___
  1. k-Nearest Neighbors (k-NN)  
     for kNN, there is no training step because there is no model to build. 
     Template matching & interpolation is all that is going on in kNN. 
+    As no model is built, there is nothing to validate
     
  2. Logistic Regression
  3. Support Vector Machines (SVMs)
@@ -15,6 +20,12 @@ ___
 
 
  What’s the trade-off between bias and variance?
+ ___
+ Variance is defined in Statistics, the expectation of the squared deviation of a random variable from its mean
+ Bias is the difference between the true label and our prediction. 
+ 
+ 
+ 
  What is the difference between supervised and unsupervised machine learning?
 
  How is KNN different from k-means clustering?
