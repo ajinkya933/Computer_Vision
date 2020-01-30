@@ -4,7 +4,10 @@ ___
 
 Various training methods to train a ML model
 ___
- 1. k-Nearest Neighbors (k-NN)
+ 1. k-Nearest Neighbors (k-NN)  
+    for kNN, there is no training step because there is no model to build. 
+    Template matching & interpolation is all that is going on in kNN. 
+    
  2. Logistic Regression
  3. Support Vector Machines (SVMs)
  4. Decision Trees
