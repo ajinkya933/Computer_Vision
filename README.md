@@ -1,6 +1,8 @@
 
 # Computer_Vision
 These are the concepts for Computer Vision and Machine Learning
+# Machine Learning
+https://www.springboard.com/blog/machine-learning-interview-questions/
 
 ### Fundamental structure of CNN
 
