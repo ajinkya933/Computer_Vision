@@ -1,7 +1,14 @@
 How to correct loss in ML model
+___
+
 
 Various training methods to train a ML model
-
+___
+ 1. k-Nearest Neighbors (k-NN)
+ 2. Logistic Regression
+ 3. Support Vector Machines (SVMs)
+ 4. Decision Trees
+ 5. Convolutional Neural Networks (CNNs)
 
 
  What’s the trade-off between bias and variance?
