@@ -1,6 +1,6 @@
 Good references:
 https://developers.google.com/machine-learning/crash-course/descending-into-ml/training-and-loss
-
+https://www.youtube.com/watch?v=sDv4f4s2SB8
 
 How to correct loss in ML model
 ___
@@ -23,7 +23,7 @@ ___
  ___
  Variance is defined in Statistics, the expectation of the squared deviation of a random variable from its mean
  Bias is the difference between the true label and our prediction. 
- 
+
  
  
  What is the difference between supervised and unsupervised machine learning?
