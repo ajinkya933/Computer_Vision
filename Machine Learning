@@ -4,40 +4,35 @@ Various training methods to train a ML model
 
 
 
-Q1- What’s the trade-off between bias and variance?
+ What’s the trade-off between bias and variance?
+ What is the difference between supervised and unsupervised machine learning?
 
-Q2- What is the difference between supervised and unsupervised machine learning?
+ How is KNN different from k-means clustering?
 
-Q3- How is KNN different from k-means clustering?
+ Explain how a ROC curve works.
 
-Q4- Explain how a ROC curve works.
+ Define precision and recall.
 
-Q5- Define precision and recall.
+ What is Bayes’ Theorem? How is it useful in a machine learning context?
+ Why is “Naive” Bayes naive?
 
-Q6- What is Bayes’ Theorem? How is it useful in a machine learning context?
+ Explain the difference between L1 and L2 regularization.
 
-Q7- Why is “Naive” Bayes naive?
+ What’s your favorite algorithm, and can you explain it to me in less than a minute?
+ What’s the difference between Type I and Type II error?
 
-Q8- Explain the difference between L1 and L2 regularization.
+ What’s a Fourier transform?
 
-Q9- What’s your favorite algorithm, and can you explain it to me in less than a minute?
+ What’s the difference between probability and likelihood?
+ What is deep learning, and how does it contrast with other machine learning algorithms?
 
-Q10- What’s the difference between Type I and Type II error?
+ What’s the difference between a generative and discriminative model?
 
-Q11- What’s a Fourier transform?
+ How is a decision tree pruned?
+ Which is more important to you– model accuracy, or model performance?
 
-Q12- What’s the difference between probability and likelihood?
+ How would you handle an imbalanced dataset?
 
-Q13- What is deep learning, and how does it contrast with other machine learning algorithms?
+ When should you use classification over regression?
 
-Q14- What’s the difference between a generative and discriminative model?
-
-Q16- How is a decision tree pruned?
-
-Q17- Which is more important to you– model accuracy, or model performance?
-
-Q19- How would you handle an imbalanced dataset?
-
-Q20- When should you use classification over regression?
-
-Q22- How do you ensure you’re not overfitting with a model? 
+ How do you ensure you’re not overfitting with a model? 
